@@ -29,7 +29,7 @@ internal class ConsoleHelper
                 .Required()
                 .PageSize(10)
                 .InstructionsText(
-                    "[grey](Press [yellow]<space>[/] to toggle your" +
+                    "[grey](Press [yellow]<space>[/] to toggle your " +
                     "selection and [yellow]<enter>[/] to accept)[/]")
                 .AddChoices(options));
 
