@@ -15,7 +15,8 @@ string openAIKey =
 List<string> selectedModels =
     ConsoleHelper.GetSelection(
         [Statics.GPT35TurboKey, Statics.GPT4Key,
-        Statics.GPT4TurboKey, Statics.GPT4oKey]);
+        Statics.GPT4TurboKey, Statics.GPT4oKey,
+        Statics.GPT4oMiniKey]);
 
 // Create OpenAI client
 OpenAIClient client = new(openAIKey);
